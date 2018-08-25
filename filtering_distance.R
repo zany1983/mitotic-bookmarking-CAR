@@ -4,8 +4,7 @@ setwd("~/Documents/scientific/CAR/analysis")
 library("cluster")
 library("factoextra")
 
-source("https://bioconductor.org/biocLite.R")
-biocLite("edgeR")
+
 
 A549_merged_GeneCount<-read.delim(file = "A549_merged_GeneCount.txt",sep = "\t",header = T)
 Hela_merged_GeneCount<-read.delim(file = "Hela_merged_GeneCount.txt",sep = "\t",header = T)
